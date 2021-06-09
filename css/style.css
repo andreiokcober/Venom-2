@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(20, 19, 26, 1);
+  color: #fff;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.conteiner {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+.logo-venom {
+  display: inline-block;
+  margin-right: 50px;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.nav-menu-item {
+  margin-right: 30px;
+}
+.nav-menu-item > a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.main-Date {
+  display: block;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+.main-text {
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 423px;
+  margin-top: 40px;
+}
+.button-group {
+  margin-top: 70px;
+  padding-bottom: 144px;
+}
+.button {
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.button-primery {
+  margin-right: 50px;
+  color: #8d0019;
+}
+.button-icon,
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.button-icon {
+  margin-right: 10px;
+}
+.button-link {
+  color: #fff;
+}
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.body-back {
+  background: url(../images/blood.png) no-repeat top right,
+    #14131a url(../images/background.jpg) no-repeat center center / 100%;
+}
