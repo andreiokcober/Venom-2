@@ -5,6 +5,12 @@ body {
   background-color: rgba(20, 19, 26, 1);
   color: #fff;
 }
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
 a {
   cursor: pointer;
   text-decoration: none;
@@ -89,4 +95,83 @@ a {
 .body-back {
   background: url(../images/blood.png) no-repeat top right,
     #14131a url(../images/background.jpg) no-repeat center center / 100%;
+}
+.blood-delete {
+  background: #14131a url(../images/background.jpg) no-repeat center center /
+    100%;
+}
+.about-film {
+  display: flex;
+}
+.col {
+  flex-basis: 50%;
+}
+.col-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 21px;
+}
+.col-text {
+  width: 423px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 30px;
+}
+.col-subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.column {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  width: 312px;
+}
+.col-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.spoiler {
+  background: url(../images/spoiler\ .jpg) no-repeat center / contain;
+  width: 356px;
+  height: 205px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spoiler-btn {
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  cursor: pointer;
+}
+.play {
+  transform: translate(1px, 2px);
+}
+.trailer {
+  display: flex;
+  align-self: start;
+}
+.trailer-img {
+  width: 362px;
+  border-radius: 5px;
+  margin-right: 30px;
 }
